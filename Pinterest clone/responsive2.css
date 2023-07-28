@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+  .navbar .list a {
+      padding: 9px 5px;
+  }
+
+  .navbar .inputfield {
+      width: 40%;
+  }
+
+  .flex-row {
+      height: 200px;
+  }
+
+  .flex-row .flexbox {
+      width: 300px;
+      height: 180px;
+  }
+
+  .more h1 {
+      font-size: 22px;
+      padding: 95px 0 0 20px;
+  }
+
+  .more button {
+      margin-top: 10px;
+      margin-left: 20px;
+      padding: 8px 12px;
+  }
+
+  .main-mini .flex-min {
+      width: 160px;
+      height: 70px;
+  }
+
+  .explore {
+      margin-top: 40px;
+  }
+
+  .fetch-images {
+      width: 160px;
+  }
+
+  .fetch-images .img-bo {
+      flex-grow: 0.8;
+  }
+
+  .fetch-images .img-bo img {
+      border-radius: 10px;
+  }
+
+  .fetch-images .img-bo h2 {
+      padding-top: 4px;
+  }
+}

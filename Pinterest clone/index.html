@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive2.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+
+    <title>Explore the best of Pinterest</title>
+  </head>
+  <body id="mode">
+    <div class="starting-page" id="top" >
+        <!-- nav -->
+      <div class="main-nav">
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+          <h1>Pinterest</h1>
+        </div>
+        <div class="ham" id="ha">
+          |||
+        </div>
+        <div class="flex-list">
+
+            <a href="#" id="show">Home</a>
+            <a href="#search">About</a>
+            <a href="#bussiness">Business</a>
+            <a href="#">Blog</a>
+            <button id="red">Log in</button>
+            <button id="redhov">Sign up</button>
+        </div>
+      </div>
+      <div class="text-header">
+        <h1>Get your next</h1>
+        <br>
+        <h2 id="changetext">Outfit idea</h2>
+      </div>
+        <div class="slider">
+           <div class="box" style="background-image: url(sliderimg/decor1.jpg);"></div>
+           <div class="box" style="background-image: url(sliderimg/decor2.jpg);"></div>
+           <div class="box" style="background-image: url(sliderimg/decor3.jpg);"></div>
+           <div class="box" style="background-image: url(sliderimg/decor4.jpg);"></div>
+           <div class="box" style="background-image: url(sliderimg/decor5.jpg);"></div>
+           <div class="box" style="background-image: url(sliderimg/decor6.jpg);"></div>
+        </div>
+        <div class="bar">
+            <span>Here’s how it works  <strong>v</strong></span>
+        </div>
+      <!-- ends -->
+      <!-- second page -->
+      <div class="con" id="search">
+        <div class="box1">
+            <img src="img/sec-img/main.png" alt="" id="main">
+            <img src="img/sec-img/2.png" alt="" id="sec">
+            <img src="img/sec-img/3.png" alt="" id="thir">
+            <img src="img/sec-img/4.png" alt="" id="four">
+            <div class="input-search-id">
+                <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="easy chicken dinner"
+          />
+            </div>
+        </div>
+        <div class="box2">
+  <div class="text-area">
+    <h2>Search for an idea</h2>
+    <br>
+    <div class="post">
+    <span>What do you want to try next? Think of something you’re into—like “easy chicken dinner”—and see what you find.</span>
+</div>
+    <br>
+    <button>explore</button>
+  </div>
+
+        </div>
+      </div>
+      <div class="form-bac" id="bussiness">
+        <div class="main-login-page">
+          <div class="texta">
+            <div class="backbtn">
+             <a href="#top"><i class="fa-solid fa-arrow-up"></i></a> 
+            </div>
+            <h1 class="mobile">Sign-up to get your ideas</h1>
+            <div class="cent">
+            <span>
+            Sign-up to<br>  get your <br> ideas
+          </span>
+        </div>
+          </div>
+          <div class="pinlogin">
+            <div class="login-id">
+              <form action="" class="formlogin">
+                <img src="img/logo.png" alt=""  id="f"/>
+                <h1>Welcome to Pinterest</h1>
+                  <h4>Find new ideas to try</h4>
+      <label for="">Email</label>
+      <input type="text" placeholder="Email">
+      <label for="">Password</label>
+      <input type="text" placeholder="Create a Password">
+      <label for="">Birthdate </label>
+      <input type="date" placeholder="dd-11-yyyy">
+      <button id="btnsubmit">Continue</button>
+      <span>or</span>
+      <button id="btng"><img src="img/f.png" alt="">   Continue as Facebook</button>
+      <button id="btnf"> <img src="img/g.png" alt="">   Continue as Google</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="footer">
+        <a href=""> Terms of services</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Help</a>
+        <a href="">Iphone App</a>
+        <a href="">Android App</a>
+        <a href="">Users</a>
+        <a href="">collection</a>
+        <a href="">Today</a>
+        <a href="">Explore</a>
+        <a href="">Watch</a>
+        <a href="">Shop</a>
+      </div>
+    </div>
+    <!--  -->
+    <div class="container"  style="display: none;" >  <!--change-->
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+          <h1>Pinterest</h1>
+        </div>
+        <div class="list">
+          <a href="">Today</a>
+          <a href="">Watch</a>
+          <a href="">Shop</a>
+          <a href="">Explore</a>
+        </div>
+        <div class="inputfield">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder=" Search for easy dinners ,fashion, etc."
+          />
+        </div>
+        <div class="login-btn">
+          <span class="login">Login</span>
+          <span class="sign-up">Sign up</span>
+          <h2 id="popbtn">></h2>
+          <div class="pop-up">
+            <a href="">About Pinterest</a>
+            <a href="">See terms & privacy</a>
+            <div class="special">
+              <a href="" id="s">Stop requests to log in</a>
+              <button id="check">
+                <div id="ball">0</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c" id="navbott">
+            <div class="text-center">
+        <h1>Explore the best of Pinterest</h1>
+      </div>
+      <div class="flex-row">
+        <div class="flexbox" style="background-image: url(img/house.jpg)">
+          <div class="more">
+            <h1>Shipping container house</h1>
+            <button>View More</button>
+          </div>
+        </div>
+        <div class="flexbox" style="background-image: url(img/anil.jpg)">
+          <div class="more">
+            <h1>Nail stamping</h1>
+            <button>Make</button>
+          </div>
+        </div>
+        <div class="flexbox" style="background-image: url(img/plant.jpg)">
+          <div class="more">
+            <h1>Hanging Plants</h1>
+            <button>Try</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- discover section  -->
+      <!-- image click preview -->
+      <div class="open-image" hidden id="openpreview">
+        <div class="flex-con">
+          <div class="img-side">
+            <div class="cancel">
+              <button onclick="backbtn()">X</button>
+            </div>
+            <img src="img/plant.jpg" alt="" id="clickimg">
+          </div>
+          <div class="detail-side">
+            <div class="saventn">
+              <h1>⋮</h1>
+              <span>Save</span>
+            </div>
+            <a href="#">From
+              ebay.com</a>
+              <div class="main-det-text">
+                <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Imp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, minima. </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusamus a soluta eius fugit, fugiat molestias nobis aspernatur exercitationem recusandae quia accusantium iure inventore ipsum sit labore repudiandae id eos. Lorem ipsum dolor sit amet consectetur adipisicing eli adipisicing elit. Assumenda numquam quis nobis, quasi delectus nemo facere esse minima veritatis alias! Lorem ipsum dolor sit amet. </p>
+              </div>
+              <div class="follower-sec">
+               <span>💜</span> <div class="namesec"><div class="name">Lorem Fake</div><div class="fol">16  followers</div></div>  
+              </div>
+              <div class="needmore" id="more">
+                More information...
+              </div>
+          </div>
+        </div>
+        <div class="more-images">
+          <div class="clicked-image-more-section">
+            <h1>more Like this</h1>
+            <div class="more-section">
+         <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/302" class="si"  alt="" id="imgbx1">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div>
+<div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/300" class="si"  alt="" id="imgbx2">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/303" class="si"  alt="" id="imgbx3">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/304" class="si"  alt="" id="imgbx4">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/305" class="si"  alt="" id="imgbx5">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/306" class="si"  alt="" id="imgbx6">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/307" class="si"  alt="" id="imgbx7">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/308" class="si"  alt="" id="imgbx8">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/309" class="si"  alt="" id="imgbx9">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div> <div class="fetch-images">
+  <div class="img-bo" >
+ <img src="https://picsum.photos/200/310" class="si"  alt="" id="imgbx10">
+
+  </div>
+  <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+</div>
+    
+            </div>
+
+          </div>
+        </div>
+        </div>
+        <!-- ends -->
+  
+      <div class="dicover-section" >
+        <div class="text">Discover interests</div>
+        <div class="mini-layout">
+          <div class="main-mini">
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/father.jpg)"
+            >
+              <div class="section-heads">Father's Day</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/animal.jpg)"
+            >
+              <div class="section-heads">Animals</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/arch.jpg)"
+            >
+              <div class="section-heads">Architecture</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/art.jpg)"
+            >
+              <div class="section-heads">Arts</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/beauty.jpg)"
+            >
+              <div class="section-heads">Beauty</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/design.jpg)"
+            >
+              <div class="section-heads">Design</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/arts\ and\ design.jpg)"
+            >
+              <div class="section-heads">DIY And Crafts</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/edu.jpg)"
+            >
+              <div class="section-heads">Education</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/elecr.jpg)"
+            >
+              <div class="section-heads">Electronics</div>
+            </div>
+            <div
+              class="flex-min"
+              style="background-image: url(img/discover/planner.jpg)"
+            >
+              <div class="section-heads">Event Planning</div>
+            </div>
+            <div class="more-btn-hide" id="hide">
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/fina.jpg)"
+              >
+                <div class="section-heads">Finance</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/food.jpg)"
+              >
+                <div class="section-heads">Food And Drink</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/holiday.jpg)"
+              >
+                <div class="section-heads">Holiday</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/homedecor.jpg)"
+              >
+                <div class="section-heads">Home Decor</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/garden.jpg)"
+              >
+                <div class="section-heads">Lawn And Garden</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/fashion.jpg)"
+              >
+                <div class="section-heads">Men's Fashion</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/quotes.jpg)"
+              >
+                <div class="section-heads">Quotes</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/tatto.jpg)"
+              >
+                <div class="section-heads">Tattos</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/travel.jpg)"
+              >
+                <div class="section-heads">Travel</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/cars.jpg)"
+              >
+                <div class="section-heads">Vehicles</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/wedding.jpg)"
+              >
+                <div class="section-heads">Weddings</div>
+              </div>
+              <div
+                class="flex-min"
+                style="background-image: url(img/discover/womenfas.jpg)"
+              >
+                <div class="section-heads">Women's Fashion</div>
+              </div>
+            </div>
+            <button id="morebtn">More</button>
+          </div>
+        </div>
+      </div>
+      <!-- ends discover -->
+      <!-- Explore popular ideas -->
+      <div class="explore" >
+        <h1>Explore popular ideas</h1>
+        <div class="explorer-of-images">
+          <div class="mini-boxy">
+            <!-- <div class="fetch-images">
+        <div class="img-bo">
+       <img src="img/discover/beauty.jpg" alt="" class="">
+      
+        </div>
+        <a href="">Lorem ipsum ae ullam ratione earum aspernatur deleniti amet, rerum, soluta cumque?</a>
+    </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+  </body>
+  <script src="logic.js"></script>
+  <script
+    src="https://kit.fontawesome.com/bbf692bdea.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+</html>
